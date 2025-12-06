@@ -1,0 +1,7 @@
+@layer base {
+  :root {
+    --brand-primary: #008080;       
+    --brand-dark: #004d4d;          
+    --brand-bg-light: #e4f3f0;     
+  }
+}
