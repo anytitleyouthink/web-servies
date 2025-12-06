@@ -16,5 +16,31 @@ export const ABOUT_CONTENT = {
   // ID video từ link: https://www.youtube.com/shorts/_pclsnpCsaY
   videoId: "_pclsnpCsaY" 
 } as const;
+// src/constants.ts
 
+export const ABOUT_STATS = {
+  title: "Những con số ấn tượng",
+  stats: [
+    { 
+      value: 4, 
+      label: "Năm kinh nghiệm", 
+      suffix: "" // Không có hậu tố
+    },
+    { 
+      value: 500, 
+      label: "Khách hàng", 
+      suffix: "+" // Hậu tố dấu cộng
+    },
+    { 
+      value: 2000000, // Lưu ý: Để số nguyên, không có dấu phẩy
+      label: "Đơn hàng được gửi đi", 
+      suffix: "+" 
+    },
+    { 
+      value: 500, 
+      label: "Đánh giá 5 sao", 
+      suffix: "+" 
+    }
+  ]
+} as const;
 
