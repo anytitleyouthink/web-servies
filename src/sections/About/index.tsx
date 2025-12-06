@@ -47,7 +47,7 @@ const About = () => {
         className="about-stats-section"
         style={{ backgroundImage: `url(${bgStats})` }}
       >
-        <div className="absolute inset-0 bg-(--brand-primary) opacity-90 z-0"></div>
+        <div className=" stats-overlay"></div>
 
         <div className="stats-content-wrapper relative z-10">
           <h2 className="stats-title">{ABOUT_STATS.title}</h2>
